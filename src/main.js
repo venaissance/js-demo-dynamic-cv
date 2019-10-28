@@ -10,7 +10,7 @@ let string = `/* 你好，我叫米大王
     width: 200px;
     height: 200px
 }
-/* 接下来我把 div 变成一个太极八卦图
+/* 接下来我会把 div 化为太极八卦
  * 注意看好了
  * 首先，把 div 变成一个圆
 **/
@@ -19,13 +19,16 @@ let string = `/* 你好，我叫米大王
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     border: none;
 }
-/* 八卦是阴阳形成的
+/* 八卦始于阴阳
  * 一黑一白
  **/
 #div1 {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
 }
-/* 现在加两个小球 */
+/* 太极生两仪，
+ * 两仪生四象，
+ * 四象生八卦
+ **/
 #div1::before {
     width: 100px;
     height: 100px;
@@ -46,6 +49,8 @@ let string = `/* 你好，我叫米大王
     border-radius: 50%;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
 }
+/* 长吁一口气，打完收工
+ **/
 `;
 let string2 = "";
 
